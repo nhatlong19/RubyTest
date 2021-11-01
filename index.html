@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    
+    <div>
+        <!-- Tab items -->
+        <div class="tabs">
+            <div class="tab-item active">
+                <i class="tab-icon fas fa-code"></i>
+                Ruby & Ruby on Rails
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-cog"></i>
+                OOP
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fab fa-github"></i>
+                Git & Github
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-tools"></i>
+                MVC
+            </div>
+            
+            <div class="line"></div>
+        </div>
+
+        <!-- Tab content -->
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <h2>1. Ruby là gì? Rails là gì?</h2>
+                <p><b>Ruby</b> là một ngôn ngữ lập trình hướng đối tượng được sử dụng để xây dựng và phát triển ứng dụng web và di động. Được tạo ra vào năm 1995, mặc dù còn khá mới so với nhiều ngôn ngữ nổi tiến khác, nhưng Ruby đã và đang là ngôn ngữ phổ biến trong mảng lập trình web và lập trình di động. </p>
+                <p><b>Rails</b> hay tên gọi đầy đủ là <b>Ruby on Rails</b>, là một framework mã nguồn mở được viết bằng ngôn ngữ lập trình Ruby, được sử dụng để xây dựng và phát triển các ứng dụng web. Rails mang lại nhiều lợi ích tuyệt vời như cung cấp công cụ và thư viện chất lượng, thuận tiện cho việc phát triển web cùng với hiệu xuất cao.</p>
+            </div>
+
+            <div class="tab-pane">
+                <h2>2. Lập trình hướng đối tượng là gì?</h2>
+                <p><b>Lập trình hướng đối tượng (OOP)</b> là một kỹ thuật lập trình mà trong đó chương trình được chia làm các phần nhỏ được gọi là đối tượng. OOP có hai thuộc tính chính là <b>Đối tượng (Object)</b> và <b>Lớp (Class)</b>.</p>
+                <p>Đối tượng (Object) gồm 2 thành phần chính:</p>
+                <ul>
+                    <li>Thuộc tính (Attribute): là những thông tin, đặc điểm của đối tượng</li>
+                    <li>Phương thức (Method): là những hành vi mà đối tượng có thể thực hiện</li>
+                </ul>
+                <p>Lớp (Class): những đối tượng có các đặc tính giống nhau được tập hợp lại thành một lớp. Lớp cũng gồm 2 thành phần chính là Thuộc tính và Phương thức. Một đối tượng được gọi là một thực thể của lớp.</p>
+                <p>OOP có 4 thuộc tính cơ bản sau:</p>
+                <ul>
+                    <li>Tính đóng gói</li>
+                    <li>Tính kế thừa</li>
+                    <li>Tính đa hình</li>
+                    <li>Tính trừu tượng</li>
+                </ul>
+                <p>OOP có nhiều ưu điểm như làm đơn giản hóa các cấu trúc phức tạp; có thể tái sử dụng, tiết kiệm tài nguyên; giúp fix bug dễ dàng hơn; có tính bảo mật cao thông qua tính đóng gói.</p>
+            </div>
+
+            <div class="tab-pane">
+                <h2>3. Git là gì? Github là gì?</h2>
+                <p><b>Git</b> là một hệ thống quản lý phiên bản mã nguồn, giúp ta có thể quay lại đoạn code trước khi chỉnh sửa. Ví dụ khi ta lỡ sửa sai một đoạn code, thì ta có thể dễ dàng quay lại đoạn đoạn code trước đó, điều này vô cùng thuận tiện nhất là khi ta phát triển các hệ thống hay chương trình lớn phức tạp. Git thường gắn với một <b>Local Reponseitory</b> (lưu trữ trên thiết bị cá nhân) và một <b>Remote Repository</b> (kho lưu trữ đám mây trên internet, có thể đồng bộ với nhiều thiết bị khác).</p>
+                <p>
+                    <b>Github</b> chính là một Remote Repository vô cùng phổ biến, mỗi người có thể tạo tài khoản trên đó để tạo ra các kho chứa của riêng mình để có thể làm việc.
+                    Github được viết bằng Ruby on Rails. GitHub thường được sử dụng cho dự án có nhiều người cùng hợp tác. Bên cạnh đó, GitHub còn có khả năng khôi phục code khi cần thiết. Khi sử dụng GitHub, ngoài các công việc chính như tạo Branch, tạo Pull Request và Fork một Repository, bạn có thể theo dõi, tương tác với người khác như một mạng xã hội thông thường.
+                </p>
+            </div>
+
+            <div class="tab-pane">
+                <h2>4. Bạn hiểu gì về MVC?</h2>
+                <p><b>MVC</b> là viết tắt của <b>Model – View – Controller</b>. Là một mô hình lập trình, phổ biến trong việc thiết kế các ứng dụng web và di động. Mô hình này phân bố code làm 3 phần, mỗi phần có nhiệm vụ riêng biệt:</p>
+                <ul>
+                    <li>Model: có chức năng xử lý dữ liệu, các logic, truy xuất dữ liệu từ database và gửi đến views.</li>
+                    <li>View: là phần mà người dùng nhìn thấy trên trang web, thao tác lên trang trang web.</li>
+                    <li>Controller: có nhiệm vụ xử lý các thao tác, các yêu cầu của người dùng thông qua View sau đó đưa ra dữ liệu mà người dùng cần. Controller còn chức năng kết nối với Model.</li>
+                </ul>
+                <p>Mô hình MVC mang đến nhiều ưu điểm như tiết kiệm thời gian phát triển ứng dụng vì lập trình viên có thể làm việc đồng thời trên từng phần riêng biệt của mô hình này; tạo nhiều khung View cho Model; dễ dàng chỉnh sửa nhờ sự độc lập của từng thành phần trong mô hình …vv</p>
+            </div>
+        </div>
+    </div>
+
+    <script src ="main.js"></script>
+
+</body>
+</html>
